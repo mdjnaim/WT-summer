@@ -1,0 +1,26 @@
+<!Doctype html>
+<html>
+<body>
+    <title> MD. JANNATUN NAIM </title>
+<h1>MD. JANNATUN NAIM</h1>
+<p> This is MD. JANNATUN NAIM. I am a student of American International University-Bangladesh(AIUB). It is my 10th Semester.  </p>
+<h3> My hobby is travelling. </h3>
+<p style="color:red;"> This is red color. </p>
+<p style="color:rgb(17, 0, 255);"> This is rgb color. </p>
+<p style="color:blue;"> This is blue color. </p>
+<p><i><b><u><del>This is my favourite website.</del></u></b></i></p>
+<a href="https://www.aiub.edu/"> <img src="images.jfif" width="200" height="200"> </a>
+<list><ul>
+    <li>Travel</li>
+    <li>Game</li>
+    <li>Reading</li>
+    </ul>
+
+    <ol>
+    <li>Travel</li>
+    <li>Game</li>
+    <li>Reading</li>
+    </ol>
+</list>
+</body>
+</html>
