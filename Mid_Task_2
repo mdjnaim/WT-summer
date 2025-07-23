@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mid_task_2</title>
+    <style>
+        body{
+            background-color: lightblue;
+        }
+        h1, h2, h3{
+            color: darkblue;
+            text-align: center;
+        }
+        table, td, th {
+            border-collapse: collapse;
+            padding: 10px;
+        }
+       table{background-color: mediumseagreen;
+       border: 1px solid black;
+       margin: auto;
+       padding: auto;} 
+    </style>
+</head>
+<body>
+    <h1>Bank Management System</h1>
+    <h2>Your trusted Financial Partner</h2>
+    <h3>Customer Registration Form</h3>
+    <table>
+        <tr><td>Full Name</td>
+    <td><input type="text"></td></tr>
+    <tr>
+        <td>Date of Birth</td>
+        <td><input type="date"></td>
+    </tr>
+    <tr><td>Gender</td>
+    <td>
+            <input type="radio" name="des">Male
+            <input type="radio" name="des">Female
+            <input type="radio" name="des">Other
+    </td></tr>
+    <tr><td>Marital Status</td><td><select>
+            <option>Single</option>
+            <option>Married</option>
+            <option>Divorced</option>
+        </select></td></tr>
+        <tr><td>Account Type</td>
+        <td>
+            <select>
+                <option>Savings</option>
+                <option>Current</option>
+                <option>Fixed Deposit</option>
+            </select>
+        </td></tr>
+        <tr><td>Initial Deposit Amount</td>
+        <td><input type="text"></td></tr>
+        <tr><td>Mobile Number</td>
+        <td><input type="text"></td></tr>
+        <tr><td>Email Address</td>
+        <td><input type="text"></td></tr>
+        <tr><td>Address</td>
+        <td><textarea cols="20" rows="3"></textarea></td></tr>
+        <tr><td>Occupation</td>
+        <td><input type="text"></td></tr>
+        <tr><td>National ID(NID)</td>
+        <td><input type="text"></td></tr>
+        <tr><td>Set Password</td>
+        <td><input type="text"></td></tr>
+        <tr><td>Upload ID Proof</td>
+        <td><input type="file"></td></tr>
+        <tr><td><input type="checkbox">I agree to the terms and conditions</td></tr>
+        <tr><td><input type="submit" value="Register">
+        <input type="reset" value="Clear"></td></tr>
+    </table>
+</body>
+</html>
