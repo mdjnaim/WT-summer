@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="form.css">
+        <script src="validation.js"></script>
+        <title>form</title>
+    </head>
+    <body>
+        <h2>Clinic Patient Registration</h2>
+        <form id="register form">
+        <table>
+            <tr>
+                <td>Full Name:</td>
+            </tr>
+            <tr>
+                <td><input type="text" id="name" placeholder="Enter your full name" required></td>
+            </tr>
+            <tr>
+                <td>Age:</td>
+            </tr>
+            <tr>
+                <td><input type="text" id="age" placeholder="Enter your age" required></td>
+            </tr>
+            <tr>
+                <td>Phone Number:</td>
+            </tr>
+            <tr>
+                <td><input type="phone" id="phone" placeholder="Enter your phone number" required></td>
+            </tr>
+            <tr>
+                <td>Email Address:</td>
+            </tr>
+            <tr>
+                <td><input type="email" id="email" placeholder="Enter your email" required></td>
+            </tr>
+            <tr>
+                <td>Insurance Provider:</td>
+            </tr>
+            <tr>
+                <td>
+                    <select id="insurance">
+                        <option>Select provider</option>
+                        <option>Provider A</option>
+                        <option>Provider B</option>
+                        <option>Provider C</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Policy Number:</td>
+            </tr>
+            <tr>
+                <td><input type="text" id="policy" placeholder="Enter your policy number" required></td>
+            </tr>
+            <tr>
+                <td><h3>Additional Information:</h3></td>
+            </tr>
+            <tr>
+                <td>Username:</td>
+            </tr>
+            <tr>
+                <td><input type="text" id="Username" placeholder="Choose a username" required></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+            </tr>
+            <tr>
+                <td><input type="password" id="Password" placeholder="Choose a password" required></td>
+            </tr>
+            <tr>
+                <td>Confirm Password:</td>
+            </tr>
+            <tr>
+                <td><input type="password" id="confirmPassword" placeholder="Confirm your password" required></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Register"></td>
+            </tr>
+        </table>
+    </form>
+    </body>
+</html>
